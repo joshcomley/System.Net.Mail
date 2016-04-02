@@ -1,0 +1,29 @@
+﻿{
+  "version": "1.0.0-rc2-00001",
+  "description": "System.Net.Mail .net Core port",
+  "authors": [ "joshc" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "System.Threading.Thread": "4.0.0-rc2-23826",
+    "System.Threading.ThreadPool": "4.0.10-rc2-23826",
+    "System.Net.Primitives": "4.0.11-rc2-23826",
+    "System.Data.Common": "4.0.1-rc2-23826",
+    "Newtonsoft.Json": "8.0.3",
+    "System.Text.Encoding.Extensions": "4.0.11-rc2-23931",
+    "System.IO.FileSystem": "4.0.1-rc2-23931",
+    "System.Collections.Specialized": "4.0.1-beta-23516",
+    "Microsoft.NETCore.Platforms": "1.0.1-rc3-23904"
+  },
+  "frameworks": {
+    "dnxcore50": {
+      "dependencies": {
+      },
+      "imports": [
+        "dotnet5.4",
+        "portable-net452+win81"
+      ]
+    }
+  }
+}
